@@ -15,7 +15,6 @@ document.addEventListener(
         } else {
             todos = JSON.parse(localStorage.getItem("todos"));
         }
-        console.log(typeof todos);
         todos.forEach((todo) => {
             // create div
             const todoDiv = document.createElement("div");
